@@ -5,3 +5,4 @@
 @contentImageDistance: 2.5em;
 @groupMargin: 2.5em 0;
 @itemSpacing: 25px;
+@mobileImageWidth: none;

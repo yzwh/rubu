@@ -25,6 +25,9 @@ body{
 .ui.menu .ui.dropdown .menu>.item{
     border-bottom:1px solid #DEDEDE;
 }
+.ui.list #list_h:hover{
+    color:#5BC4BE;
+}
 #logo{
     position: relative;
     margin-top: 103px;
@@ -56,12 +59,6 @@ body{
 #button{
     margin-bottom: 15px;
 }
-.ui.card.zdy .meta>a:not(.ui){
-    color: #446DB2;
-}
-.ui.card.zdy .meta>a:not(.ui):hover{
-    color: #5BC4BE;
-}
 #content{
     margin:10px 2rem;
     width: 100%;
@@ -78,21 +75,10 @@ h3.con_h a{
 h3.con_h a:hover{
     color: #5BC4BE;
 }
-#span{
-    background: #5BC4BE;
-    border-radius: 3px;
-    font-size: 11px;
-    color: white;
-    padding: 2px 4px;
-    display: inline-block;
-    line-height: 15px;
-    text-align: center;
-    margin-top: 10px;
-}
 .strong{
     display: block;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
     margin: 5px 0 ;
 }
@@ -108,12 +94,13 @@ h3.con_h a:hover{
     width: 40%;
 }
 #divider{
+    width: 85%;
     margin-left: 45px;
-    margin-right: 40px;
     border-top: 1px dashed #CCCCCC;
 }
 #divider-r{
-    margin: 20px 40px 0 20px;
+    width: 85%;
+    margin: 20px 0 0 20px;
     border-top: 1px dashed #CCCCCC;
 }
 #a_r{
@@ -163,9 +150,6 @@ h3.con_h a:hover{
     font-size: 12px;
     text-align: center;
 }
-/*#footer_g>a{*/
-    /*color:#446CB3;*/
-/*}*/
 #footer_g{
     margin-bottom: 10px;
 }
