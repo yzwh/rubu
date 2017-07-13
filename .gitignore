@@ -1,0 +1,9 @@
+/semantic/dist
+/semantic/tasks
+/semantic/gulpfile.js
+/semantic/package.json
+/semantic/src/definitions
+/semantic/src/themes
+/semantic/src/semantic.less
+/semantic/src/theme.config
+/semantic/src/theme.less

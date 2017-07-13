@@ -1,0 +1,17 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@border: none;
+@boxShadow: none;
+@borderRadius: 0;
+@itemTextColor: white;
+@dropdownHoveredItemColor: #446CB3;
+@hoverItemTextColor: #446CB3;
+@hoverItemBackground: white;
+@activeHoverItemBackground: white;
+@activeHoverItemColor: #446CB3;
+@activeItemBackground: white;
+@activeItemTextColor: #446CB3;
+@dropdownHoveredItemBackground: transplant;
+@paginationActiveBackground: #446DB2;
+@paginationActiveTextColor: white;
