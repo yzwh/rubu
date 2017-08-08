@@ -1,0 +1,14 @@
+/* 右侧内容区样式 */
+.g-mn .m-ct{min-height: 800px;margin: 30px 20px 0 0;border-top: 1px solid #bfbfbf;border-right: 1px solid #bfbfbf;}
+.g-mn .m-ct .m-sch{padding: 10px 20px 20px 25px;border-bottom: 1px solid #bfbfbf;}
+.g-mn .m-ct .m-sch .row{margin-bottom: 10px;}
+.g-mn .m-ct .m-sch .row div{display: inline-block;margin-right: 40px;font-size: 14px;}
+.g-mn .m-ct .m-sch .row div:last-child{margin-right: 0;}
+.g-mn .m-ct .m-sch .row div label{display: inline-block;width:110px;padding-right:10px;margin-right: 10px;text-align: right;}
+.g-mn .m-ct .m-sch .row div .u-ipt{width: 110px;line-height: 25px;border-radius: 4px;border:1px solid #bfbfbf;text-indent: 2em;}
+.g-mn .m-ct .m-sch .row div .u-sel{width: 110px;height: 25px;border-radius: 4px;}
+.g-mn .m-ct .m-btns{padding: 5px 0 5px 20px;border-bottom: 1px solid #bfbfbf;}
+.g-mn .m-ct .m-btns .u-page{float: right;margin-right: 50px;line-height: 30px;}
+.g-mn .m-ct .m-btns .u-page select{height: 25px;margin: 0 5px;}
+.g-mn .m-ct .m-btns .u-page i{font-size: 20px;margin-left: 15px;}
+.g-mn .m-ct .m-tb{overflow-x: scroll;margin: 10px 20px 0 25px;padding-bottom: 20px;text-align: center;}

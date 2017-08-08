@@ -1,0 +1,35 @@
+/* reset样式 */
+*{margin: 0;padding: 0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+a,button{cursor:pointer;}
+a{text-decoration: none;color: #fff;}
+i{cursor: pointer;}
+/* 页面公共部分样式 */
+.g-sd{position:fixed;width: 240px;height:100%;background-color: #2F4050;overflow: hidden;box-sizing: border-box;}
+.g-mn{position:relative;height:100%;min-height: 900px;margin-left: 240px;overflow: hidden;}
+.g-sd .m-nav{}
+.g-sd .m-nav .m-top{height: 80px;line-height: 80px;text-align: center;}
+.g-sd .m-nav .m-top span,.m-top i{color: #ffffff;font-size: 24px;}
+.g-sd .m-nav .m-top i{position: absolute;right: 30px;top:28px;}
+.g-sd .m-nav .m-lst{}
+.g-sd .m-nav .m-lst .u-lst-1{line-height: 58px;border-top: 2px solid #bfbfbf;border-right: 2px solid #bfbfbf;cursor: pointer;}
+.g-sd .m-nav .m-lst .u-lst-1:last-child{border-bottom: 2px solid #bfbfbf;}
+.g-sd .m-nav .m-lst .u-lst-1 span{margin-left: 50px;}
+.g-sd .m-nav .m-lst .u-lst-1 i{float: right;margin-top: 20px;margin-right: 20px;}
+.g-sd .m-nav .m-lst .u-lst-1 .m-ul-2{display:none;background-color: #263949;padding-left: 90px;border-top: 2px solid #bfbfbf;}
+.g-sd .m-nav .m-lst .u-lst-2{line-height: 40px;}
+.g-mn .m-top{height: 80px;line-height: 80px;background-color: #2F4050;}
+.g-mn .m-top span{color:#fff;font-size: 24px;margin-left: 80px;}
+.g-mn .m-top .m-top-right{float: right;margin-right: 100px;}
+.g-mn .m-top .m-top-right ul li{float: left;margin-right: 20px;}
+.g-mn .m-top .m-top-right ul li>a{padding: 0 10px;font-size: 16px;}
+/*内容区公用元件样式*/
+input::-webkit-input-placeholder{color: #bfbfbf;text-indent: 2em;}
+.btn{width: 90px;height: 30px;border-radius: 4px;background-color: #2F4050;border: none;color: #fff;}
+.btn-1{background-color: transparent;color: #0000ff;}
+.btn-2{background-color: transparent;border: 1px solid #0E2D5F;color: #001f7c;border-radius: 2px;}
+table{border-collapse:collapse;border-spacing:0;border: 1px solid #DBDBDB;font-size: 14px;}
+table td{padding: 0 20px;height: 30px;min-width: 120px;}
+table td:first-child{min-width: 50px;}
+table tr:nth-child(even){background-color: #F2F2F2;}
